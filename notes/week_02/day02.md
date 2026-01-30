@@ -148,6 +148,16 @@ You’ll need **Raptor** (free) for the in-class activity.
 - inputs/outputs and edge cases,
 before you ever touch a “real” programming language.
 
+
+## status report
+- map lifecycle to other life experiences
+
+- two requirements that are very important
+    - mandatory
+    - optional
+
+- write problem solving methodology
+
 ---
 
 ## Quick warm-up activity — The “peanut in the test tube” puzzle
@@ -156,8 +166,36 @@ Prompt:
 - Peanut is inside at the bottom.
 - Get it out; think of solutions *before* watching the video. 
 
+
 ### In-class exercise (call to action)
 - Spend 2–3 minutes brainstorming solutions, then watch the demo video. 
 
 **Added context (why this matters):**
 This puzzle is about **reframing constraints** and using available resources. In software, the “peanut” is the goal, the “tube” is constraints, and the trick is often realizing you can change something you *assumed* was fixed (inputs, environment, representation, available tools).
+
+
+### options
+
+high low guessing game 1-10 ints at random solicites numbers from user. if the user put a number high than the user put it it needs to display lower. if they guess too lower it says higher. if they guess exactly the correct number it says correct. gamecycle if they guess correctly they have the option to play again. if they get it right again they get another option to play again and if they get it right the third time then the program exits. maximum guesses 5. instructions at the begining of the game. 
+
+    - the band from 1 to 10 is inclusive
+    - the doofus rule
+        - if they input a string they are not following the instructions. keep track of that and if they guess same number multiple times or they guess 3 and it says higher and the go lower that is a doofus rule. if they do it 3 times in a row you tell them they are a doofus and the program exits. if they are a doofus twice but then do the rules their record is clear but if they do a doofus ever other valid guess and that is fine.
+
+second option write a program that is a variant to the high low. No user the program it's self will generate a random guess. print out the guess with the approriate responses but there is no user. once the computer guesses the correct one that the computer came up with prompting for playing again up to 3 times. it should follow the instructions based on what has been provided to it.
+
+third choice a program called 5 player poker deal. The program will take a standard deck of cards shuffle it and then deal 5 cards to each 5 players. list on the screen the cards that were delt each players cards are shown on a seperate line.
+
+    - 4 suits of 13 cards.
+    - 
+
+fourth option is road trip. given a distance in miles and a average speed limit in miles per hour by a user. calculate how long it will take in time to reach the destination. then calculate how long it would take if you drove 5 hours over the limit. and then 10 miles over the speed limit. and then 15 miles over the speed limit. lastly 20 miles over the speed limit. the miles per hour over the speed limit can be a input. the time if its over 60 minutes display the number of hours and the number of minutes but not the seconds. if its less then 60 minutes then just give the minutes and drop the seconds on the floor. maximum of the combine speed limit and the amount over the speed limit cannot exceed 120 miles per hour.
+
+    - upper limit around 3500 miles.
+    - speed limit comes from the user and along side mileage.
+    - lower bound of 25 mph
+    - can be in console.
+
+    - if there is a invalid input should they be reprompted
+    - should the mph be a integer, should the distance be a integer.
+    - 
